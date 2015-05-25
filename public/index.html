@@ -1,0 +1,117 @@
+<html>
+
+  <head>
+    <title>Daniel C. Liem's Personal Website</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico">
+
+        <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <style type="text/css" media="screen">
+
+          body {
+              background-color: #fff; 
+              /*background-image: url(background.png);*/
+              background-attachment: fixed;
+              font-family: 'Open Sans', sans-serif;
+              line-height: 28px;
+              font-size: 16px;
+              color: #303030;
+          }
+
+          .container {
+              display: block;
+              position: relative;
+              margin: auto;
+              text-align: center;
+              width: 760px; 
+          }
+
+          .links {
+              color: #FF9900;
+              text-decoration: none;
+          }
+
+          .links2 {
+              color: #FF0000;
+              text-decoration: none;
+          }
+
+          .primary {
+              color: #303030;
+              font-size: 30px;
+              font-family:Raleway,  Helvetica,  sans-serif;
+              text-decoration: none;
+          }
+
+          #slash {
+              font-size: 30px;
+          }
+
+          #bigpic {
+              text-decoration: none;
+              opacity: 1;
+                transition:opacity 1s, transform 2s;
+                -moz-transition:opacity 1s, -moz-transform 2s;
+                -webkit-transition:opacity 1s, -webkit-transform 2s;
+                -o-transition:opacity 1s, -o-transform 2s;
+          }
+
+          #logo {
+              opacity: .4;
+                transition:opacity 1s, transform 2s;
+                -moz-transition:opacity 1s, -moz-transform 2s;
+                -webkit-transition:opacity 1s, -webkit-transform 2s;
+                -o-transition:opacity 1s, -o-transform 2s;
+          }
+
+          #logo:hover {
+              opacity: 1;
+                transition:opacity 1s, transform 2s;
+                -moz-transition:opacity 1s, -moz-transform 2s;
+                -webkit-transition:opacity 1s, -webkit-transform 2s;
+                -o-transition:opacity 1s, -o-transform 2s;
+          }
+
+          .links:hover, .primary:hover, .links2:hover{
+              color: #33CCFF;
+              text-decoration: none;
+          }
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <br><br>
+    <center id="slash">
+      <a>ADFORALL DEMO</a>
+      <br><br>
+    <br>
+
+    <div class="container">
+      <div id='mapCanvas'></div>
+      <div id='mapInfo'></div>
+      <br><br>
+    </div>
+
+    <center>
+      <button class="primary" onclick="submit()">Request Ad!</button>
+
+      <br><br><br>
+
+      <div id='ad'></div>
+    </center>
+
+
+
+
+    <br><br>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
